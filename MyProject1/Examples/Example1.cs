@@ -10,7 +10,8 @@ namespace MyProject1.Examples
     {
         static void Main()
         {
-            Console.Write("Hello World");
+            String name = "sam";
+            Console.Write("Hello " + name);
             Console.ReadKey();
         }
     }
