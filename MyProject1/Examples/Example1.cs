@@ -10,6 +10,7 @@ namespace MyProject1.Examples
     {
         static void Main()
         {
+            /*
             Console.Write("Enter your First Number ");
             int num1 = int.Parse(Console.ReadLine());
 
@@ -20,6 +21,11 @@ namespace MyProject1.Examples
 
             Console.Write("You Entered {0} and {1} Sum of num1 and num2 = {2} ", num1,num2,sum);
             Console.Write("", sum);
+            Console.ReadKey();
+            */
+
+            bool x = false;
+            Console.Write(x);
             Console.ReadKey();
         }
     }
