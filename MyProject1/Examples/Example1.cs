@@ -24,9 +24,37 @@ namespace MyProject1.Examples
             Console.ReadKey();
             */
 
+            /*
             bool x = false;
             Console.Write(x);
             Console.ReadKey();
+            */
+            int num1, num2;
+            int add, sub, mul;
+            float div;
+
+            Console.Write("Insert Number one\t");
+            num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Insert Number two\t");
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+            add = num1 + num2;
+            sub = num1 - num2;
+            mul = num1 * num2;
+            div = (float)num1 / num2;
+            int mod = num1 % num2;
+
+
+
+            Console.Write("\n{0}",add);
+            Console.Write("\n{0}",sub);
+            Console.Write("\n{0}",mul);
+            Console.Write("\n{0}",div);
+            Console.Write("\n{0}",mod);
+
+            Console.ReadKey();
+
         }
     }
 }
