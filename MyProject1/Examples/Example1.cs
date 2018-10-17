@@ -44,8 +44,17 @@ namespace MyProject1.Examples
             mul = num1 * num2;
             div = (float)num1 / num2;
             int mod = num1 % num2;
-
-
+            if (num1 > num2)
+            {
+                Console.Write("num 1 is the maximum number \n");
+            }
+            if(num1<num2){
+                Console.Write("num 1 is the minimum number \n");
+            }
+            else
+            {
+                Console.Write("num 1 and num 2 are equal");
+            }
 
             Console.Write("\n{0}",add);
             Console.Write("\n{0}",sub);
